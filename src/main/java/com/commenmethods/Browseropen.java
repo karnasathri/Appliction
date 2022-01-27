@@ -6,7 +6,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Browseropen {
 	
-	public static void main(String[] args) {
+	@Test
+	public void open() {
 		
 		WebDriverManager.chromedriver().setup();
 		
