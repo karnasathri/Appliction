@@ -6,7 +6,7 @@ import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 
 public class Datafetching {
-public static void main(String[] args) throws FilloException {
+@Test throws FilloException {
 		
 		Fillo fillo = new Fillo();
 		Connection connection =fillo.getConnection("C:\\Users\\admin\\Desktop\\MAVEN\\Excell\\Excelldata.xlsx");
